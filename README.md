@@ -1,8 +1,8 @@
 ###Get a list of all products
-GET http://localhost:4000/products
+GET http://ec2-18-175-206-111.eu-west-2.compute.amazonaws.com/products
 
 ### Create a product
-POST http://localhost:4000/products
+POST http://ec2-18-175-206-111.eu-west-2.compute.amazonaws.com/products
 Content-Type: application/json
 
 {
@@ -11,10 +11,10 @@ Content-Type: application/json
 }
 
 ### GET a product by id
-GET http://localhost:4000/products/5df118b3c86e5826958b661a
+GET http://ec2-18-175-206-111.eu-west-2.compute.amazonaws.com/products/5df118b3c86e5826958b661a
 
 ### Update a product by id
-PATCH  http://localhost:4000/products/5df118b3c86e5826958b661a
+PATCH  http://ec2-18-175-206-111.eu-west-2.compute.amazonaws.com/products/5df118b3c86e5826958b661a
 Content-Type: application/json
 
 {
@@ -23,10 +23,10 @@ Content-Type: application/json
 
 
 ### Delete a product by id
-DELETE  http://localhost:4000/products/5df118b3c86e5826958b661a
+DELETE  http://ec2-18-175-206-111.eu-west-2.compute.amazonaws.com/products/5df118b3c86e5826958b661a
 
 ### 404 route Not Found
-GET http://localhost:4000/abc_xyz
+GET http://ec2-18-175-206-111.eu-west-2.compute.amazonaws.com/abc_xyz
 
 
 
